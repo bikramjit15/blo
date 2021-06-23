@@ -1,7 +1,8 @@
 ### your site title here
 
 title: "Bikram's Blog"
-baseurl: /blog # name of the repository
+baseurl: "/blog" # name of the repository
+url: "https://bikramjitkarmakar.github.io"
 email: bikramjitkarmakar123@gmail.com
 
 
@@ -46,5 +47,7 @@ exclude:
 
 
 plugins:
+  - Jekyll
   - jekyll-seo-tag
   - jekyll-paginate
+
