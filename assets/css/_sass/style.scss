@@ -129,10 +129,10 @@ blockquote {
 
 /* Home Button */
 .Dark {
-    background-image: url(../images/left-arrow2.svg);
+    background-image: url(../images/night-mode.svg);
     background-repeat: no-repeat;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     opacity: 0.9;
     position: fixed;
     top: 100px;
@@ -141,7 +141,28 @@ blockquote {
     opacity: 1;
     }
     @include media-query($on-laptop) {
-        top: 80%;
+        top: 82.5%;
+        left: 90%;
+        height: 30px;
+        width: 30px;
+        opacity: 0.6;
+    }
+}
+
+.homeicon {
+    background-image: url(../images/icons8-home.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    opacity: 0.9;
+    position: fixed;
+    top: 150px;
+    left: 50px;
+    &:hover{
+    opacity: 1;
+    }
+    @include media-query($on-laptop) {
+        top: 75%;
         left: 90%;
         height: 30px;
         width: 30px;
