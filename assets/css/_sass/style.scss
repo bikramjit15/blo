@@ -128,14 +128,14 @@ blockquote {
 }
 
 /* Home Button */
-.Dark {
-    background-image: url(../images/night-mode.svg);
+.homeicon {
+    background-image: url(../images/icons8-home.svg);
     background-repeat: no-repeat;
     height: 50px;
     width: 50px;
     opacity: 0.9;
     position: fixed;
-    top: 100px;
+    top: 115px;
     left: 50px;
     &:hover{
     opacity: 1;
@@ -149,26 +149,27 @@ blockquote {
     }
 }
 
-.homeicon {
-    background-image: url(../images/icons8-home.svg);
+.Dark {
+    background-image: url(../images/night-mode.svg);
     background-repeat: no-repeat;
     height: 50px;
     width: 50px;
     opacity: 0.9;
     position: fixed;
-    top: 150px;
+    top: 125px;
     left: 50px;
     &:hover{
     opacity: 1;
     }
     @include media-query($on-laptop) {
-        top: 75%;
+        top: 75.5%;
         left: 90%;
         height: 30px;
         width: 30px;
         opacity: 0.6;
     }
 }
+
 
 /* Article list in index/home page */
 .article-list {
